@@ -1,3 +1,20 @@
 html {
     font-family: Comfortaa;
 }
+
+head {
+    background-color: #faf4ff;
+}
+
+h1 {
+    color: #6C304A;
+}
+
+h2 {
+    background-color: #faf4ff;
+    text-align: center;
+}
+
+body {
+    color: #333039;
+}
