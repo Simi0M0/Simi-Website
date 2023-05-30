@@ -102,6 +102,7 @@ nav ul.show {
   margin: auto;
   margin-top: -4rem;
   flex-direction: column;
+  padding: 3rem;
 }
 
 .hero img {
