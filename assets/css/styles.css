@@ -1,22 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa");
 
-/* Variables */
-:root {
-  --font-family: "Comfortaa"
-  --normal-font: 400;
-  --bold-font: 700;
-  --bolder-font: 900;
-  --bg-color: #fcfcfc;
-  --primary-color: #4756df;
-  --secondary-color: #ff7235;
-  --primary-shadow: #8b8eaf;
-  --secondary-shadow: #a17a69;
-  --bottom-margin: 0.5rem;
-  --bottom-margin-2: 1rem;
-  --line-height: 1.7rem;
-  --transition: 0.3s;
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -35,16 +18,16 @@ ul {
 
 a {
   text-decoration: none;
-  color: var(--primary-color);
+  color: #6C304A;
 }
 
 a:hover {
   text-decoration: none;
-  color: var(--secondary-color);
+  color: #C76B90;
 }
 
 body {
-  font-family: var(--font-family);
+  font-family: "Comfortaa";
 }
 
 nav {
@@ -56,21 +39,21 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 1.5rem 3.5rem;
-  background-color: var(--bg-color);
+  background-color: #ffffff;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
 nav h1 {
-  color: var(--primary-color);
+  color: #6C304A;
 }
 
 nav a {
-  color: var(--primary-color);
-  transition: var(--transition);
+  color: #6C304A;
+  transition: 0.3s;
 }
 nav a:hover {
-  color: var(--secondary-color);
-  border-bottom: 2px solid var(--secondary-color);
+  color: #C76B90;
+  border-bottom: 2px solid #C76B90;
 }
 
 nav ul {
@@ -79,11 +62,11 @@ nav ul {
 }
 
 nav ul li {
-  font-weight: var(--bold-font);
+  font-weight: 700;
 }
 
 .burger-menu {
-  color: var(--primary-color);
+  color: #6C304A;
   font-size: 2rem;
   border: 0;
   background-color: transparent;
