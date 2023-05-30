@@ -2,12 +2,16 @@ html {
     font-family: Comfortaa;
 }
 
+header {
+    background: #6C304A;
+}
+
 head {
     background-color: #faf4ff;
 }
 
 h1 {
-    color: #6C304A;
+    color: black;
     text-align: center;
 }
 
