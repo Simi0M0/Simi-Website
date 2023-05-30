@@ -126,22 +126,6 @@ nav ul.show {
   padding: 0.3rem 0;
 }
 
-/* more about */
-.more-about {
-  background-color: #fcfcfc;
-  padding: 1rem 6rem;
-}
-
-.more-about h2 {
-  margin-bottom: 0.5rem;
-  text-align: center;
-}
-
-.more-about p {
-  line-height: 1.7rem;
-  padding: 0.4rem;
-}
-
 /* skills */
 .skills {
   max-width: 68.75rem;
@@ -322,19 +306,6 @@ footer {
   .bio {
     margin-top: -7rem;
     width: 20.5rem;
-  }
-
-  .more-about {
-    margin-top: 2rem;
-    padding: 1rem 3.5rem;
-  }
-
-  .more-about h2 {
-    text-align: center;
-  }
-
-  .more-about p {
-    text-align: justify;
   }
 
   .icon {
