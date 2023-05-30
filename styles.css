@@ -25,3 +25,15 @@ table, td {
     border-collapse: collapse;
     padding: 3px;
 }
+
+nav {
+    float: left;
+    width: 30%;
+    background: #C76B90;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
