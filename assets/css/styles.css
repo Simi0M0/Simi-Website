@@ -38,7 +38,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.5rem 3.5rem;
+  padding: 1.5rem 1rem;
   background-color: #ffffff;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
@@ -59,10 +59,20 @@ nav a:hover {
 nav ul {
   display: flex;
   gap: 1.9rem;
+  position: fixed;
+  background-color: #fcfcfc;
+  flex-direction: column;
+  top: 86px;
+  left: 10%;
+  width: 80%;
+  text-align: center;
+  transform: translateX(120%);
+  transition: transform 0.5s ease-in;
 }
 
 nav ul li {
   font-weight: 700;
+  margin: 8px;
 }
 
 .burger-menu {
@@ -71,7 +81,11 @@ nav ul li {
   border: 0;
   background-color: transparent;
   cursor: pointer;
-  display: none;
+  display: block;
+}
+
+nav ul.show {
+  transform: translateX(0);
 }
 
 .hero {
@@ -291,34 +305,6 @@ footer {
 
 @media screen and (max-width: 720px) {
   /*changes reflects on screen with a width of 720px and below*/
-}
-
-nav {
-  padding: 1.5rem 1rem;
-}
-
-nav ul {
-  position: fixed;
-  background-color: #fcfcfc;
-  flex-direction: column;
-  top: 86px;
-  left: 10%;
-  width: 80%;
-  text-align: center;
-  transform: translateX(120%);
-  transition: transform 0.5s ease-in;
-}
-
- nav ul li {
-  margin: 8px;
-}
-
-.burger-menu {
-  display: block;
-}
-
-nav ul.show {
-  transform: translateX(0);
 }
 
 .hero {
