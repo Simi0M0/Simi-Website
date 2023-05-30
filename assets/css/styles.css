@@ -97,11 +97,9 @@ nav ul.show {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1;
+  gap: 2.5rem;
   max-width: 68.75rem;
   margin: auto;
-  margin-top: -4rem;
-  flex-direction: column;
 }
 
 .hero img {
