@@ -94,7 +94,7 @@ nav ul.show {
 
 /* hero */
 .hero {
-  display: inline-block;
+  display: flex;
   align-items: center;
   justify-content: center;
   gap: 1;
@@ -109,7 +109,7 @@ nav ul.show {
   width: 30rem;
   padding-top: 3rem;
   padding-bottom: 3rem;
-  display: inline-block;
+  display: flex;
 }
 
 /* bio */
