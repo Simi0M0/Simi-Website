@@ -84,7 +84,7 @@ nav ul li {
 }
 
 .hero img {
-  height: 37.5rem;
+  height: 40rem;
   width: 37.5rem;
 }
 
@@ -102,4 +102,19 @@ nav ul li {
 .bio p {
   line-height: 1.7rem;
   padding: 0.3rem 0;
+}
+
+.more-about {
+  background-color: #fcfcfc;
+  padding: 1rem 6rem;
+}
+
+.more-about h2 {
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.more-about p {
+  line-height: 1.7rem;
+  padding: 0.4rem;
 }
