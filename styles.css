@@ -27,9 +27,15 @@ table, td {
 }
 
 nav {
-    width: 100%;
     background: #6C304A;
-    padding: 20px;
+    padding: 1.5rem 3.5rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 nav ul {
