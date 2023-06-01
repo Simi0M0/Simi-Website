@@ -38,6 +38,10 @@ nav {
     justify-content: space-between;
 }
 
+nav a {
+    color: white;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -46,12 +50,4 @@ nav ul {
 footer {
     background: #333039;
     color: white;
-}
-
-aside {
-    width: 30%;
-    padding-left: 15px;
-    margin-left: 15px;
-    float: right;
-    background-color: #faf4ff;
 }
