@@ -2,10 +2,6 @@ html {
     font-family: Comfortaa;
 }
 
-header {
-    background: #6C304A;
-}
-
 head {
     background-color: #faf4ff;
 }
@@ -32,7 +28,7 @@ table, td {
 
 nav {
     width: 100%;
-    background: #C76B90;
+    background: #6C304A;
     padding: 20px;
 }
 
