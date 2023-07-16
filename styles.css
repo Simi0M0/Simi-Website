@@ -47,6 +47,11 @@ nav ul {
     padding: 0;
 }
 
+.me {
+  left-align: auto;
+  right-align: auto;
+}
+
 footer {
     background: #333039;
     color: white;
