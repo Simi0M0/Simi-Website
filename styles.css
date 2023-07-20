@@ -47,6 +47,10 @@ nav ul {
     padding: 0;
 }
 
+#float {
+  float: right;
+}
+
 footer {
     background: #333039;
     color: white;
