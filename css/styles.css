@@ -56,8 +56,10 @@ nav ul {
 }
 
 @media (max-width:767.98px) {}
-  
+
 footer {
     background: #333039;
     color: white;
+    width: 100%;
+    position: relative;
 }
